@@ -1,0 +1,11 @@
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\GelirGiderTakip.csproj.AssemblyReference.cache
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\GelirGiderTakip.Form1.resources
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\Gelir_Gider.Properties.Resources.resources
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\GelirGiderTakip.csproj.GenerateResource.cache
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\GelirGiderTakip.csproj.CoreCompileInputs.cache
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\bin\Debug\Gelir_Gider.exe.config
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\bin\Debug\Gelir_Gider.exe
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\bin\Debug\Gelir_Gider.pdb
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\Gelir_Gider.exe
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\Gelir_Gider.pdb
+C:\Users\Celik\Desktop\Projeler\Gelir_Gider\Gelir_Gider\obj\Debug\Gelir_Gider.exe.config
