@@ -5,7 +5,7 @@ Bu proje; kullanıcıların kişisel veya kurumsal finansal süreçlerini düzen
 
 ## 🚀 Projenin Amacı ve Çözdüğü Problemler
 
-**Amacı:** Kullanıcıların finansal işlemlerini düzenli, kontrollü ve güvenli bir şekilde takip etmesini sağlamak[cite: 4, 10].
+**Amacı:** Kullanıcıların finansal işlemlerini düzenli, kontrollü ve güvenli bir şekilde takip etmesini sağlamak.
 
 ]**Çözdüğü Problemler:** 
 * Harcamaların kontrolsüz yapılması. 
@@ -22,7 +22,8 @@ Bu proje; kullanıcıların kişisel veya kurumsal finansal süreçlerini düzen
 ### Ana Ekran ve İşlem Yönetimi
 [cite_start]Uygulamanın ana arayüzü üzerinden tüm gelir/gider verileri listelenebilir, anlık bakiye takibi yapılabilir ve yeni işlemler eklenebilir[cite: 5, 8].
 
-![Ana Ekran](<img width="1122" height="845" alt="Ekran görüntüsü 2026-05-22 192045" src="https://github.com/user-attachments/assets/867cebdb-c1ee-4fe2-a8a7-1f910e2e17ed" />
+![Ana Ekran]<img width="1122" height="845" alt="Ekran görüntüsü 2026-05-22 192045" src="https://github.com/user-attachments/assets/9ebe430f-27c3-4e9c-b56b-a63271ec371e" />
+
 )
 *Açıklama: Tür, Kategori, Tutar ve Açıklama alanları ile dinamik veri girişi, DataGridView üzerinde listeleme ve alt bölümde anlık Toplam Gelir, Toplam Gider ve Güncel Bakiye hesaplamaları.*
 
@@ -30,31 +31,31 @@ Bu proje; kullanıcıların kişisel veya kurumsal finansal süreçlerini düzen
 
 ## 🛠️ Teknik Özellikler ve Mimari
 
-### [cite_start]Kullanılan Teknolojiler [cite: 5]
-* [cite_start]**Programlama Dili:** C# (.NET Framework) [cite: 5]
-* [cite_start]**Geliştirme Ortamı:** Visual Studio [cite: 5]
-* [cite_start]**Veri Tabanı:** Microsoft SQL Server [cite: 2, 5]
-* [cite_start]**Raporlama:** Microsoft Excel Entegrasyonu [cite: 2, 5]
+### Kullanılan Teknolojiler 
+* **Programlama Dili:** C# (.NET Framework) 
+* **Geliştirme Ortamı:** Visual Studio 
+* **Veri Tabanı:** Microsoft SQL Server 
+* **Raporlama:** Microsoft Excel Entegrasyonu 
 
-### [cite_start]Sistem Mimarisi [cite: 7]
-[cite_start]Proje, kodun sürdürülebilirliği ve okunabilirliği açısından **Katmanlı Mimari (3-Tier Architecture)** kullanılarak geliştirilmiştir[cite: 7, 10]:
-1.  [cite_start]**Presentation Layer (Sunum Katmanı):** Windows Forms mimarisi ile tasarlanmış kullanıcı arayüzü[cite: 7].
-2.  [cite_start]**Business Layer (İş Mantığı Katmanı):** Finansal hesaplamalar ve iş kurallarının işletildiği katman[cite: 7].
-3.  [cite_start]**Data Access Layer (Veri Erişim Katmanı):** SQL Server ile iletişim kuran ve CRUD işlemlerini yürüten katman[cite: 7, 10].
+### Sistem Mimarisi 
+Proje, kodun sürdürülebilirliği ve okunabilirliği açısından **Katmanlı Mimari (3-Tier Architecture)** kullanılarak geliştirilmiştir:
+1.  **Presentation Layer (Sunum Katmanı):** Windows Forms mimarisi ile tasarlanmış kullanıcı arayüzü.
+2.  **Business Layer (İş Mantığı Katmanı):** Finansal hesaplamalar ve iş kurallarının işletildiği katman.
+3.  **Data Access Layer (Veri Erişim Katmanı):** SQL Server ile iletişim kuran ve CRUD işlemlerini yürüten katman.
 
-### [cite_start]Veri Tabanı Şeması [cite: 6]
-* [cite_start]**Kategoriler Tablosu:** `KategoriID` (PK, int), `KategoriAdi` (nvarchar) [cite: 6]
-* [cite_start]**İşlemler Tablosu:** `IslemID` (PK, int), `Tur` (Gelir/Gider), `Tutar` (decimal), `KategoriID` (int), `Tarih` (date), `Aciklama` (nvarchar) [cite: 6]
+### Veri Tabanı Şeması 
+* **Kategoriler Tablosu:** `KategoriID` (PK, int), `KategoriAdi` (nvarchar) 
+* **İşlemler Tablosu:** `IslemID` (PK, int), `Tur` (Gelir/Gider), `Tutar` (decimal), `KategoriID` (int), `Tarih` (date), `Aciklama` (nvarchar) 
 
 ---
 
 ## 💻 Fonksiyonel Özellikler (Kullanımı)
 
-[cite_start]Uygulama temel olarak şu dinamik işlevleri başarıyla yerine getirmektedir[cite: 10]:
-* [cite_start]**CRUD İşlemleri:** Gelir ve gider verilerini ekleme, silme, güncelleme ve listeleme[cite: 5, 10].
-* [cite_start]**Filtreleme ve Arama:** Kategoriye göre filtreleme ve tarihe göre spesifik işlem arama[cite: 5].
-* [cite_start]**Anlık Analiz:** Sisteme girilen verilere göre otomatik olarak *Toplam Gelir*, *Toplam Gider* ve *Güncel Bakiye* hesaplaması[cite: 5].
-* [cite_start]**Dışa Aktarım:** Listelenen tüm finansal verilerin tek tıkla Excel formatına aktarılması ve raporlanması[cite: 3, 5, 10].
+]Uygulama temel olarak şu dinamik işlevleri başarıyla yerine getirmektedir:
+* **CRUD İşlemleri:** Gelir ve gider verilerini ekleme, silme, güncelleme ve listeleme.
+* **Filtreleme ve Arama:** Kategoriye göre filtreleme ve tarihe göre spesifik işlem arama.
+* **Anlık Analiz:** Sisteme girilen verilere göre otomatik olarak *Toplam Gelir*, *Toplam Gider* ve *Güncel Bakiye* hesaplaması.
+* **Dışa Aktarım:** Listelenen tüm finansal verilerin tek tıkla Excel formatına aktarılması ve raporlanması.
 
 ---
 
